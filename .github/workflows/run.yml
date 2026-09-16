@@ -1,0 +1,45 @@
+name: Pair Trading Analysis
+
+on:
+  schedule:
+    # GitHub Actions использует UTC. МСК = UTC+3.
+    # 12:00 МСК = 09:00 UTC (Пн-Пт)
+    # 18:50 МСК = 15:50 UTC (Пн-Пт)
+    - cron: '0 9 * * 1-5'
+    - cron: '50 15 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run analysis
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+          TG_PROXY: ${{ secrets.TG_PROXY }}
+        run: |
+          python pairs_analysis.py
+
+      - name: Commit state.json and Excel
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state.json pair_strategies_analysis.xlsx cache/ || true
+          git diff --cached --quiet || git commit -m "Update state and Excel [skip ci]"
+          git push || true
