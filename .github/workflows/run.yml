@@ -2,7 +2,6 @@ name: Pair Trading Analysis
 
 on:
   schedule:
-    # Каждый час 24/7 (UTC)
     - cron: '0 * * * *'
   workflow_dispatch:
 
@@ -25,7 +24,9 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Fetch fresh prices from MOEX
+      - name: Fetch fresh prices (Tinkoff + MOEX fallback)
+        env:
+          INVEST_TOKEN: ${{ secrets.INVEST_TOKEN }}
         run: |
           python fetch_prices.py
 
@@ -45,6 +46,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state.json pair_strategies_analysis.xlsx analytics_z.xlsx cache/ fetch_prices.py || true
+          git add state.json pair_strategies_analysis.xlsx analytics_z.xlsx cache/ || true
           git diff --cached --quiet && echo "Нет изменений — коммит не нужен" || \
             (git commit -m "Auto update [skip ci]" && git push)
