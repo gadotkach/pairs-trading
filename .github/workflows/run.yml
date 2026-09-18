@@ -2,7 +2,9 @@ name: Pair Trading Analysis
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # Каждые 6 часов 24/7 (UTC):
+    # 00:00, 06:00, 12:00, 18:00 = 03:00, 09:00, 15:00, 21:00 МСК
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
