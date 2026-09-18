@@ -2,11 +2,8 @@ name: Pair Trading Analysis
 
 on:
   schedule:
-    # GitHub Actions использует UTC. МСК = UTC+3.
-    # 12:00 МСК = 09:00 UTC (Пн-Пт)
-    # 18:50 МСК = 15:50 UTC (Пн-Пт)
-    - cron: '0 9 * * 1-5'
-    - cron: '50 15 * * 1-5'
+    # Каждый час 24/7 (UTC)
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -28,7 +25,11 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run analysis
+      - name: Run z_analytics (создаёт analytics_z.xlsx)
+        run: |
+          python z_analytics.py
+
+      - name: Run pairs_analysis
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
@@ -36,10 +37,10 @@ jobs:
         run: |
           python pairs_analysis.py
 
-      - name: Commit state.json and Excel
+      - name: Commit state.json, Excel, cache
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state.json pair_strategies_analysis.xlsx cache/ || true
-          git diff --cached --quiet || git commit -m "Update state and Excel [skip ci]"
-          git push || true
+          git add state.json pair_strategies_analysis.xlsx analytics_z.xlsx cache/ || true
+          git diff --cached --quiet && echo "Нет изменений — коммит не нужен" || \
+            (git commit -m "Auto update [skip ci]" && git push)

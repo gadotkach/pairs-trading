@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ================= ПРОЕКТ pairs-trading =================
+*.bak
+*.bak_*
+*.bak_before_patch
+*.log
+*.log.*
+.DS_Store
+z_plots/
+analytics_z_5.xlsx
+analytics_z_10.xlsx
+*_old.py
+*_backup.py
+*_with_dupe.py
+2026-09-15
+notifications_today.txt
+pairs_run*.log
+test_*.log
+strategy*.log
+trace_*.log
+theory_*.log
+top*.log
+run*.log
+cron.log
+launchd.*.log
+.plot_*.log
+# ========================================================
