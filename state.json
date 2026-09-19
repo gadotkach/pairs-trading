@@ -76,8 +76,8 @@
       "p_min_10": null
     },
     "TATN/SNGS": {
-      "min_z_10": 16.6706,
-      "max_z_10": 39.1535,
+      "min_z_10": 18.4993,
+      "max_z_10": 39.0557,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -89,7 +89,7 @@
     },
     "LKOH/SNGS": {
       "min_z_10": 178.5865,
-      "max_z_10": 328.9008,
+      "max_z_10": 330.3746,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -100,14 +100,14 @@
       "p_min_10": null
     },
     "LKOH/GAZP": {
-      "min_z_10": 30.9809,
+      "min_z_10": 30.479,
       "max_z_10": 62.6598,
       "p_max_10": null,
       "p_min_10": null
     },
     "ROSN/MOEX": {
       "min_z_10": 1.8122,
-      "max_z_10": 3.7554,
+      "max_z_10": 3.7248,
       "p_max_10": 2.49,
       "p_min_10": 2.12
     },
@@ -118,7 +118,7 @@
       "p_min_10": 3.16
     },
     "MOEX/GAZP": {
-      "min_z_10": 0.7437,
+      "min_z_10": 0.7402,
       "max_z_10": 2.1436,
       "p_max_10": 1.67,
       "p_min_10": 1.47
@@ -131,21 +131,21 @@
     },
     "TATNP/MOEX": {
       "min_z_10": 2.5316,
-      "max_z_10": 4.0341,
+      "max_z_10": 4.2137,
       "p_max_10": 3.61,
       "p_min_10": 3.61
     },
     "TATN/VTBR": {
       "min_z_10": 5.9003,
-      "max_z_10": 12.3762,
+      "max_z_10": 12.3684,
       "p_max_10": null,
       "p_min_10": null
     },
-    "ROSN/SNGS": {
-      "min_z_10": 15.6764,
-      "max_z_10": 24.7591,
-      "p_max_10": null,
-      "p_min_10": null
+    "SBER/GAZP": {
+      "min_z_10": 1.4549,
+      "max_z_10": 3.5713,
+      "p_max_10": 2.24,
+      "p_min_10": 2.24
     },
     "NVTK/SNGS": {
       "min_z_10": 33.2576,
@@ -153,45 +153,9 @@
       "p_max_10": null,
       "p_min_10": null
     },
-    "NVTK/GMKN": {
-      "min_z_10": 6.9151,
-      "max_z_10": 11.1691,
-      "p_max_10": 8.01,
-      "p_min_10": 8.01
-    },
-    "TATNP/VTBR": {
-      "min_z_10": 5.5688,
-      "max_z_10": 11.8171,
-      "p_max_10": null,
-      "p_min_10": null
-    },
-    "SBER/SNGS": {
-      "min_z_10": 7.691,
-      "max_z_10": 21.4827,
-      "p_max_10": 13.27,
-      "p_min_10": 13.27
-    },
-    "SBER/GAZP": {
-      "min_z_10": 1.4652,
-      "max_z_10": 3.5713,
-      "p_max_10": 2.24,
-      "p_min_10": 2.24
-    },
     "NVTK/MOEX": {
       "min_z_10": 4.1345,
       "max_z_10": 12.2442,
-      "p_max_10": null,
-      "p_min_10": null
-    },
-    "TATN/GMKN": {
-      "min_z_10": 3.2869,
-      "max_z_10": 6.7833,
-      "p_max_10": null,
-      "p_min_10": null
-    },
-    "SBERP/SNGS": {
-      "min_z_10": 7.6869,
-      "max_z_10": 21.6784,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -201,27 +165,33 @@
       "p_max_10": 0.51,
       "p_min_10": 0.4
     },
-    "MOEX/GMKN": {
-      "min_z_10": 1.0802,
-      "max_z_10": 2.0453,
+    "SBER/SNGS": {
+      "min_z_10": 7.691,
+      "max_z_10": 21.4827,
+      "p_max_10": 13.27,
+      "p_min_10": 13.27
+    },
+    "NVTK/GMKN": {
+      "min_z_10": 6.9151,
+      "max_z_10": 11.1691,
+      "p_max_10": 8.01,
+      "p_min_10": 8.01
+    },
+    "TATN/GMKN": {
+      "min_z_10": 3.2869,
+      "max_z_10": 6.7833,
       "p_max_10": null,
       "p_min_10": null
     },
-    "TATNP/SNGS": {
-      "min_z_10": 16.4462,
-      "max_z_10": 37.3847,
+    "TATNP/VTBR": {
+      "min_z_10": 5.5688,
+      "max_z_10": 11.8242,
       "p_max_10": null,
       "p_min_10": null
     },
-    "GMKN/SNGS": {
-      "min_z_10": 3.9364,
-      "max_z_10": 8.1756,
-      "p_max_10": null,
-      "p_min_10": null
-    },
-    "LKOH/VTBR": {
-      "min_z_10": 54.8354,
-      "max_z_10": 105.5175,
+    "SBERP/SNGS": {
+      "min_z_10": 7.6869,
+      "max_z_10": 21.6784,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -231,69 +201,39 @@
       "p_max_10": 0.12,
       "p_min_10": 0.09
     },
-    "ROSN/GAZP": {
-      "min_z_10": 2.7929,
-      "max_z_10": 4.8754,
-      "p_max_10": 3.06,
-      "p_min_10": 3.03
-    },
-    "TATN/PLZL": {
-      "min_z_10": 0.2032,
-      "max_z_10": 0.6456,
-      "p_max_10": 0.37,
-      "p_min_10": 0.25
-    },
-    "TATNP/PLZL": {
-      "min_z_10": 0.1934,
-      "max_z_10": 0.6165,
-      "p_max_10": 0.36,
-      "p_min_10": 0.24
-    },
-    "TATNP/GMKN": {
-      "min_z_10": 3.1447,
-      "max_z_10": 6.4944,
+    "MOEX/GMKN": {
+      "min_z_10": 1.0802,
+      "max_z_10": 2.0453,
       "p_max_10": null,
       "p_min_10": null
     },
-    "TATNP/GAZP": {
-      "min_z_10": 2.8564,
-      "max_z_10": 6.3662,
+    "TATNP/SNGS": {
+      "min_z_10": 16.4462,
+      "max_z_10": 37.3371,
+      "p_max_10": null,
+      "p_min_10": null
+    },
+    "GMKN/SNGS": {
+      "min_z_10": 3.9364,
+      "max_z_10": 8.1914,
+      "p_max_10": null,
+      "p_min_10": null
+    },
+    "ROSN/SNGS": {
+      "min_z_10": 15.6764,
+      "max_z_10": 24.7591,
       "p_max_10": null,
       "p_min_10": null
     },
     "SBERP/GAZP": {
-      "min_z_10": 1.4466,
+      "min_z_10": 1.4368,
       "max_z_10": 3.6039,
       "p_max_10": null,
       "p_min_10": null
     },
-    "TATN/GAZP": {
-      "min_z_10": 2.8588,
-      "max_z_10": 6.6674,
-      "p_max_10": 4.26,
-      "p_min_10": 4.26
-    },
-    "NVTK/VTBR": {
-      "min_z_10": 9.5864,
-      "max_z_10": 20.3894,
-      "p_max_10": null,
-      "p_min_10": null
-    },
-    "GAZP/GMKN": {
-      "min_z_10": 0.6596,
-      "max_z_10": 1.3136,
-      "p_max_10": 1.31,
-      "p_min_10": 1.1
-    },
-    "SBERP/NVTK": {
-      "min_z_10": 0.1508,
-      "max_z_10": 0.3363,
-      "p_max_10": 0.31,
-      "p_min_10": 0.25
-    },
-    "PLZL/NVTK": {
-      "min_z_10": 0.9402,
-      "max_z_10": 2.3366,
+    "LKOH/VTBR": {
+      "min_z_10": 54.8354,
+      "max_z_10": 105.5175,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -303,8 +243,68 @@
       "p_max_10": 0.28,
       "p_min_10": 0.24
     },
+    "TATNP/PLZL": {
+      "min_z_10": 0.1934,
+      "max_z_10": 0.6209,
+      "p_max_10": 0.36,
+      "p_min_10": 0.24
+    },
+    "ROSN/GAZP": {
+      "min_z_10": 2.757,
+      "max_z_10": 4.8754,
+      "p_max_10": 3.06,
+      "p_min_10": 3.03
+    },
+    "TATNP/GAZP": {
+      "min_z_10": 2.8289,
+      "max_z_10": 6.1833,
+      "p_max_10": null,
+      "p_min_10": null
+    },
+    "TATN/PLZL": {
+      "min_z_10": 0.2032,
+      "max_z_10": 0.6495,
+      "p_max_10": 0.37,
+      "p_min_10": 0.25
+    },
+    "TATN/GAZP": {
+      "min_z_10": 2.8337,
+      "max_z_10": 6.4679,
+      "p_max_10": 4.26,
+      "p_min_10": 4.26
+    },
+    "SBERP/NVTK": {
+      "min_z_10": 0.1508,
+      "max_z_10": 0.3363,
+      "p_max_10": 0.31,
+      "p_min_10": 0.25
+    },
+    "TATNP/GMKN": {
+      "min_z_10": 3.1447,
+      "max_z_10": 6.4944,
+      "p_max_10": null,
+      "p_min_10": null
+    },
+    "GAZP/GMKN": {
+      "min_z_10": 0.6596,
+      "max_z_10": 1.3136,
+      "p_max_10": 1.31,
+      "p_min_10": 1.1
+    },
+    "PLZL/NVTK": {
+      "min_z_10": 0.9039,
+      "max_z_10": 2.3366,
+      "p_max_10": null,
+      "p_min_10": null
+    },
+    "NVTK/VTBR": {
+      "min_z_10": 9.5864,
+      "max_z_10": 21.0666,
+      "p_max_10": null,
+      "p_min_10": null
+    },
     "VTBR/MOEX": {
-      "min_z_10": 0.3414,
+      "min_z_10": 0.3392,
       "max_z_10": 0.573,
       "p_max_10": 0.43,
       "p_min_10": 0.39
@@ -316,7 +316,7 @@
       "p_min_10": null
     },
     "PLZL/LKOH": {
-      "min_z_10": 0.1844,
+      "min_z_10": 0.182,
       "max_z_10": 0.5246,
       "p_max_10": 0.3,
       "p_min_10": 0.3
@@ -340,26 +340,26 @@
       "p_min_10": 0.4
     },
     "TATNP/NVTK": {
-      "min_z_10": 0.3525,
+      "min_z_10": 0.3509,
       "max_z_10": 0.7197,
       "p_max_10": 0.54,
       "p_min_10": 0.54
     },
     "TATN/ROSN": {
-      "min_z_10": 1.0236,
-      "max_z_10": 1.7327,
+      "min_z_10": 1.0278,
+      "max_z_10": 1.7217,
       "p_max_10": 1.65,
-      "p_min_10": 1.65
+      "p_min_10": 1.03
     },
     "TATN/NVTK": {
-      "min_z_10": 0.3528,
+      "min_z_10": 0.3515,
       "max_z_10": 0.7254,
       "p_max_10": 0.58,
       "p_min_10": 0.58
     },
     "TATNP/ROSN": {
       "min_z_10": 1.0124,
-      "max_z_10": 1.6545,
+      "max_z_10": 1.6459,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -389,12 +389,12 @@
     },
     "NVTK/GAZP": {
       "min_z_10": 6.723,
-      "max_z_10": 11.0111,
+      "max_z_10": 11.0165,
       "p_max_10": null,
       "p_min_10": null
     },
     "VTBR/GMKN": {
-      "min_z_10": 0.387,
+      "min_z_10": 0.3855,
       "max_z_10": 1.014,
       "p_max_10": null,
       "p_min_10": null
@@ -403,11 +403,11 @@
       "min_z_10": 1.8013,
       "max_z_10": 3.0318,
       "p_max_10": 2.53,
-      "p_min_10": 2.14
+      "p_min_10": 2.13
     },
     "SBERP/VTBR": {
       "min_z_10": 2.6597,
-      "max_z_10": 5.5244,
+      "max_z_10": 5.5273,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -424,14 +424,14 @@
       "p_min_10": 0.45
     },
     "LKOH/NVTK": {
-      "min_z_10": 3.8233,
+      "min_z_10": 3.7804,
       "max_z_10": 8.8367,
       "p_max_10": null,
       "p_min_10": null
     },
     "SBER/VTBR": {
       "min_z_10": 2.9194,
-      "max_z_10": 5.509,
+      "max_z_10": 5.5171,
       "p_max_10": null,
       "p_min_10": null
     },
@@ -439,7 +439,7 @@
       "min_z_10": 0.5222,
       "max_z_10": 0.8507,
       "p_max_10": 0.76,
-      "p_min_10": 0.55
+      "p_min_10": 0.52
     },
     "SBERP/ROSN": {
       "min_z_10": 0.4471,
@@ -448,7 +448,7 @@
       "p_min_10": 0.45
     },
     "LKOH/ROSN": {
-      "min_z_10": 11.0927,
+      "min_z_10": 11.0553,
       "max_z_10": 15.8001,
       "p_max_10": null,
       "p_min_10": null
@@ -460,7 +460,7 @@
       "p_min_10": null
     },
     "PLZL/GAZP": {
-      "min_z_10": 10.327,
+      "min_z_10": 9.9583,
       "max_z_10": 21.7946,
       "p_max_10": null,
       "p_min_10": null
@@ -478,19 +478,19 @@
       "p_min_10": 0.09
     },
     "PLZL/ROSN": {
-      "min_z_10": 2.6838,
+      "min_z_10": 2.6508,
       "max_z_10": 6.8788,
       "p_max_10": null,
       "p_min_10": null
     },
     "PLZL/SNGS": {
-      "min_z_10": 60.6443,
+      "min_z_10": 60.1322,
       "max_z_10": 125.3101,
       "p_max_10": null,
       "p_min_10": null
     },
     "PLZL/GMKN": {
-      "min_z_10": 7.4177,
+      "min_z_10": 7.3409,
       "max_z_10": 19.5557,
       "p_max_10": null,
       "p_min_10": null
@@ -508,7 +508,7 @@
       "p_min_10": 0.15
     },
     "PLZL/MOEX": {
-      "min_z_10": 6.544,
+      "min_z_10": 6.4589,
       "max_z_10": 15.2213,
       "p_max_10": null,
       "p_min_10": null
@@ -521,16 +521,16 @@
     },
     "TATNP/TATN": {
       "min_z_10": 0.8962,
-      "max_z_10": 0.9992,
+      "max_z_10": 0.9983,
       "p_max_10": null,
       "p_min_10": null
     },
     "SBER/SBERP": {
-      "min_z_10": 0.9972,
-      "max_z_10": 1.0129,
+      "min_z_10": 0.9982,
+      "max_z_10": 1.0126,
       "p_max_10": null,
       "p_min_10": null
     }
   },
-  "last_update": "2026-09-18T23:02:30.112870"
+  "last_update": "2026-09-19T00:46:32.827366"
 }
